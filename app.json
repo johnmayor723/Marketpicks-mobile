@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "FoodDeck",
-    "slug": "FoodDeck",
+    "name": "Market Picks",
+    "slug": "Market Picks",
     "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/appicon.png",
@@ -13,7 +13,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.fooddeck3.pro",
+      "bundleIdentifier": "com.markert-picks",
       "version": "2.0.0",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "We need your location to show nearby places."
