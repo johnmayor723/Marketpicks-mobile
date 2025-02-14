@@ -18,7 +18,7 @@ const SplashScreen = ({ navigation }) => {
                 source={require('../assets/App 1024x1024px.jpg')} // Make sure you have a logo in the assets folder
                 style={styles.logo}
             />
-            <Text style={styles.title}>Welcome to FoodDeck-pro</Text>
+            <Text style={styles.title}>Welcome to Market Picks</Text>
         </View>
     );
 };
