@@ -42,7 +42,7 @@ const SignupScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       {/* Logo */}
-      <Image source={require('../assets/foodlogo.png')} style={styles.logo} />
+      <Image source={require('../assets/App 1024x1024px.jpg')} style={styles.logo} />
 
       {/* Welcome text */}
       <Text style={styles.welcomeText}>Join FoodDeck</Text>
