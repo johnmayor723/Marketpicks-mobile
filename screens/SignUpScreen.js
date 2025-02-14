@@ -45,7 +45,7 @@ const SignupScreen = ({ navigation }) => {
       <Image source={require('../assets/App 1024x1024px.jpg')} style={styles.logo} />
 
       {/* Welcome text */}
-      <Text style={styles.welcomeText}>Join FoodDeck</Text>
+      <Text style={styles.welcomeText}>Join Market Picks</Text>
 
       {/* Name Input */}
       <TextInput
