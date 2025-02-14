@@ -46,10 +46,10 @@ const AuthScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
       {/* Logo */}
-      <Image source={require('../assets/foodlogo.png')} style={styles.logo} />
+      <Image source={require('../assets/App 1024x1024px.jpg')} style={styles.logo} />
 
       {/* Welcome text */}
-      <Text style={styles.welcomeText}>Welcome to FoodDeck-pro</Text>
+      <Text style={styles.welcomeText}>Welcome To Market Picks</Text>
 
       {/* Email Input */}
       <TextInput
