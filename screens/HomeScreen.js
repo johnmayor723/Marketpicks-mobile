@@ -74,7 +74,7 @@ const HomeScreen = () => {
         <ScrollView style={styles.container}>
             {/* Hero Section */}
             <View style={styles.heroSection}>
-                <Image source={require('../assets/hero.jpeg')} style={styles.heroImage} />
+                <Image source={require('../assets/Mobile Banner 1200 x 900-1.png')} style={styles.heroImage} />
             </View>
 
             {/* Categories Section */}
