@@ -30,14 +30,14 @@
         "WRITE_EXTERNAL_STORAGE",
         "ACCESS_FINE_LOCATION"
       ],
-      "package": "com.fooddeck3.pro"
+      "package": "com.marketspick"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-       "projectId": "359681de-da4a-41ac-a383-8d19f13e0575"
+       
       }
     }
   }
