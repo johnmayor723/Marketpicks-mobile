@@ -7,7 +7,7 @@
     "icon": "./assets/android icon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/.png",
+      "image": "./assets/android icon.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#fff"
     },
