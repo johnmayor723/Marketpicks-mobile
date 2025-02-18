@@ -4,16 +4,16 @@
     "slug": "MarketPicks",
     "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/android icon.jpg",
+    "icon": "./assets/android-icon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/android icon.jpg",
+      "image": "./assets/android-icon.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#fff"
+      "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.markert-picks",
+      "bundleIdentifier": "com.marketpicks",
       "version": "2.0.0",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "We need your location to show nearby places."
@@ -22,20 +22,19 @@
     "android": {
       "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/android icon.jpg",
-        "backgroundColor": "#fff"
+        "foregroundImage": "./assets/android-icon.jpg",
+        "backgroundColor": "#ffffff"
       },
       "permissions": [
         "READ_EXTERNAL_STORAGE",
         "WRITE_EXTERNAL_STORAGE",
-        "ACCESS_FINE_LOCATION"
+        "ACCESS_FINE_LOCATION",
+        "INTERNET"
       ],
-      "package": "com.marketspick"
+      "package": "com.marketpicks"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    
     }
   }
-}
+        }
