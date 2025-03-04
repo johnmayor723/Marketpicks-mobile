@@ -197,7 +197,7 @@ const CheckoutScreen = () => {
         />
 
         {/* Show discount message when applied */}
-        {discountApplied && (
+        {!noCoupon || discountApplied && (
           <Text style={styles.discountInfo}>
             Discount Applied! New Total: ₦{finalAmount.toFixed(2)}
           </Text>
