@@ -42,7 +42,11 @@ const AuthScreen = ({navigation}) => {
       Alert.alert('Login failed', error.response?.data?.message || 'Something went wrong');
     }
   };
-
+  
+  const handleGoogleLogin = () => {
+  navigation.navigate('GoogleLoginScreen');  
+   };
+  
   return (
     <View style={styles.container}>
       {/* Logo */}
@@ -77,6 +81,11 @@ const AuthScreen = ({navigation}) => {
         ) : (
           <Text style={styles.buttonText}>Login</Text>
         )}
+      </TouchableOpacity>
+      {/* Google Login Button */}
+      <TouchableOpacity style={styles.googleButton} onPress={handleGoogleLogin}>
+        <Image source={require('../assets/google-icon.png')} style={styles.googleIcon} />
+        <Text style={styles.googleButtonText}>Login with Google</Text>
       </TouchableOpacity>
 
       {/* Navigate to Signup */}
